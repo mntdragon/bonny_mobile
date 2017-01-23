@@ -1,0 +1,87 @@
+tao folder node moi
+command_ npm init
+dat ten pla pla
+npm install express
+tao app.js trong folder
+chay app.js
+node app.js
+
+tu tao port number bang cau lenh js app_createportnumber.js
+
+Tao nodemon de edit file js khong can phai chay lai node
+
+-----------------------------------------------------------------------------------------------
+--tao Person.js--- multimedia reposition 
+tao name, age, function setAge
+
+--- store person in array ---
+personmodel.js
+tao function cho this.addPerson dung lenh push
+optional: sau do dung get hoac remove hoac search with filer, string,.....
+
+chay 2ndExample.html
+chay trong console
+
+var allpeople = new personmodel();
+allpoepl.addPerson(new Person('pham huong'));
+
+var ulla = new Person('bonny ham'));
+allpeople.add Person(ulla);
+allpepople (hien cac info da nhap pham huong va bonny ham) trong personmodel(person: array[2])
+
+var student = new personmodel();
+
+Neu thanh cong:
+---------------------------------------
+var all_person = new personModel();
+
+undefined
+
+all_person.addPerson(new Person('pham huong'));
+
+undefined
+
+var new_person = new Person('bonny ham');
+
+undefined
+
+all_person.addPerson(new_person);
+
+undefine
+d
+all_person.getPersons();
+Array[2]0: Person
+age: undefined
+name: "pham huong"
+setAge: (age)
+__proto__: Object1: Personage: undefined
+name: "bonny ham"
+setAge: (age)
+__proto__: Object
+length: 2
+__proto__: Array[0]
+----------------------------------------
+
+Tao them controller personviewcontroller.js
+trong:
+tao construct function viewcontroller, khai bao this.personmodel = new personmodel()
+tao function updateview: tao result = document.findelementid("resulbox");
+tao vong lap for voi i = 0, i < chieu dai array (this.personmodel.getPerson().length), i++
+lay du lieu tu array: var oneperson = this.personmodel.getperson()[i];
+gan vao result ten cua oneperson
+Thoat khoi vong lap, tao function voi element la name cho function addpersonxx()
+tao 1 dai dien cho Person, chay function addPerson cua personModel sau do updateView()
+Console:
+create new controller object var new_controller = new viewcontroller();
+add person to new controller: new_controller.addPersonxx('Pham Huong Bee');
+			      new_controller.addPersonxx('Kwon Ji Yoong');
+viewcontroller: hien thi array
+viewcontroller.updateview(); --> loi: sua trong personmodel, them this.getperson = function(){return...}
+hien thi tat ca info da nhap tren screen html
+
+--- lecture2nd.js ---
+Thay doi ten controller gi gi do, sua code, dong code cu trong cmt, sau do khi edit hay nhap ten trong 
+input html ngoai man hinh tu dong update khong can danh trong console
+
+
+
