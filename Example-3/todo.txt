@@ -1,0 +1,31 @@
+------- Responsive Web desgin --------
+Web Responsive gi?i pháp t?i uu cho n?n t?ng di d?ng.
+----https://thachpham.com/web-development/html-css/lam-giao-dien-respoonsive.html
+----http://www.vging.com/kien-thuc/css-trick-trong-thiet-ke-giao-dien-responsive-web-design-n319.html
+----tim hieu meta viewport
+initial-scale: The initial zoom when visiting the page. 1.0 does not zoom.
+----tim hieu @media trong CSS3 
+
+Content cua page customize theo level scale
+should use percentage, em(relative with font size, tu tim hieu them) instead px -> s? d?ng don v? tuong d?i.
+shoulde use max-width instead width to avoid default width
+should you display: nonde for hidden element, and display: block for element can hien thi ra
+
+
+----- Web socket ------
+the ws:. This is the new URL schema for WebSocket connections. 
+There is also wss: for secure WebSocket connection the same way 
+https: is used for secure HTTP connections.
+
+https://www.html5rocks.com/en/tutorials/websockets/basics/
+http://html5demos.com/web-socket
+
+chatting: html csss js no need nodejs just client side
+sau khi: tao connection cho websocker, connection.onError on messae, onopen
+chay html, mo console check(neu o truong thay da m server)
+se thay message o muc onopen 
+
+
+
+----- Local Storage ------
+

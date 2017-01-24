@@ -21,7 +21,7 @@ function ViewController(){
 
     }
 
-    this.addPersonxx = function(name){
+    this.addPerson = function(name){
         var newPerson = new Person(name);
         this.personModel.addPerson(newPerson);
         this.updateView();
